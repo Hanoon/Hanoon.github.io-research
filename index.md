@@ -1,7 +1,7 @@
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Katibeh);
-.main-content {
+p, h1, h2 { {
     font-family: 'Katibeh', cursive;
 }
 </style>
