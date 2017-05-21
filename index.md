@@ -3,7 +3,7 @@
  @import url(https://fonts.googleapis.com/css?family=Scheherazade);
 p {
 font-family: 'Scheherazade', Tahoma;
-font-size: 1.5em;
+font-size: 1.4em;
 }
 
 </style>
