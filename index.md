@@ -1,4 +1,4 @@
-@import 'Scheherazade';
+@import url(https://fonts.googleapis.com/css?family=Scheherazade);
 
 <style>
 .main-content {
