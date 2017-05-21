@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Scheherazade);
 
 <style>
+@import url(https://fonts.googleapis.com/css?family=Scheherazade);
 .main-content {
     font-family: 'Scheherazade', Tahoma;
 }
