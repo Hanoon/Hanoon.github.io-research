@@ -1,8 +1,8 @@
 
 <style>
- @import url(https://fonts.googleapis.com/css?family=Katibeh);
+ @import url(https://fonts.googleapis.com/css?family=BMitra);
 p {
-font-family: 'Katibeh', cursive;
+font-family: 'BMitra', cursive;
 }
 
 </style>
