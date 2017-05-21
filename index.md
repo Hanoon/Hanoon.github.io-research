@@ -1,8 +1,8 @@
 
 <style>
- @import url(https://fonts.googleapis.com/css?family=BNazanin);
+ @import url(https://fonts.googleapis.com/css?family=Scheherazade);
 p {
-font-family: 'BNazanin', cursive;
+font-family: 'Scheherazade', Tahoma;
 }
 
 </style>
