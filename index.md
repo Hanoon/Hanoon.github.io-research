@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## تصاویر تعاملی
+خلاصه:
+با وجودی که تصاویر تعاملی ممکن است پیچیده به نظر بیایند ولی در حقیقت تنها دو مساله وجود دارد که سعی در حل آنها داریم. اول متناسب نمودن عکس‌ها در موبایل در حالی که به ابعاد طبیعی آن‌ها خدشه‌ای وارد نشود و دوم این که اجتناب از این که کاربر عکس‌های غیر ضروری با حجم بالا را دانلود کند.
+مساله اول را به این ترتیب حل می‌کنیم که عکس‌ها همواره 100% آن چه آن‌ها را در بر می‌گیرد را بپوشانند در حالی که عرض آن‌ها با شیوه خطی (inline style) max-width محدود می‌شود. برای مساله دوم از srcset برای بهینه نمودن resolution صفحه و از المنت <picture> برای کنترل دستی این که چه عکسی نمایش داده شود استفاده می‌کنیم.
+تحلیل:
+در طراحی تعاملی یاد گرفتیم که چگونه از media query ها برای ساختن قالب بندی‌های مختلف موبایل، تبلت و دسکتاپ استفاده کنیم. حال می‌خواهیم عکس‌ها را هم به محتوا اضافه نماییم. همان گونه کهmedia query ها به ما اجازه ارائه قواعد css مختلف را بر اساس شرایط می‌دهند، می‌خواهیم عکس‌های مختلفی را بر اساس نمایشگر کاربر نمایش دهیم. در زیر راه حل‌هایی برای پاسخگویی به این نیاز مطرح شده اند.
+راحت‌ترین راه استفاده از تصاویر SVG می‌باشد. از آن جایی که این تصاویر بر پایه بردار طراحی شده اند نسبت آن‌ها در تمامی نمایشگرها ثابت می‌ماند. در این حالت کافی است در حالی که با max-width عرض آن‌ها را محدود می‌کنیم، width آن‌ها را برابر 100% قرار دهیم تا همواره مستقل از ابعاد صفحه کل آنچه عکس‌ها را در بر می‌گیرد بپوشانند. طول عکس‌ها به طور خودکار با همان مقیاس تغییر می‌کند.
+عکس‌های با کیفیت بالا حجم زیادی دارند و منطقی نیست که اطلاعات اضافی آماده نمایش شوند در حالی که کاربر به آن‌ها احتیاجی ندارد. اضافه نمودن Attribtue srcset به المنت <img/> این امکان را می‌دهد که عکس‌های با کیفیت بالا فقط در دستگاه‌های Retina نمایش داده شود و برای نمایشگرهای استاندارد، کیفیت پایین‌تری از همان عکس‌ها نمایش داده شود.
+طراحی تعاملی موضوعی در حال تحول است. با وجود این که نیم دهه است که این طراحی به عنوان استاندارد شناخته می‌شود، مرورگرها اخیرا بهینه سازی‌های مطرح شده در این بخش را پیاده سازی کرده اند. در حالی که فناوری استفاده شده برای ساختن وبسایت‌های تعاملی ممکن است تغییر کند، مساله بنیادی نمایش محتوا در دستگاه‌های مختلف هیچگاه از بین نمی‌رود. در نتیجه حتی اگر در نهایت نیاز به آموختن ابزارهای جدیدی باشد، مفاهیم بنیادی معرفی شده در این بخش همواره ضرورریست.
 
-You can use the [editor on GitHub](https://github.com/Hanoon/Hanoon.github.io-research/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Hanoon/Hanoon.github.io-research/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
