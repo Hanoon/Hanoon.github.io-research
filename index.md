@@ -1,8 +1,8 @@
 
 <style>
- @import url(https://fonts.googleapis.com/css?family=BMitra);
+ @import url(https://fonts.googleapis.com/css?family=BNazanin);
 p {
-font-family: 'BMitra', cursive;
+font-family: 'BNazanin', cursive;
 }
 
 </style>
