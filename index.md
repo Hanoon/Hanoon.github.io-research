@@ -1,3 +1,5 @@
+@import 'Scheherazade';
+
 <style>
 .main-content {
     font-family: 'Scheherazade', Tahoma;
