@@ -1,8 +1,8 @@
 
 <style>
-@import url(https://fonts.googleapis.com/css?family=Scheherazade);
+@import url(https://fonts.googleapis.com/css?family=Katibeh);
 .main-content {
-    font-family: 'Scheherazade', Tahoma;
+    font-family: 'Katibeh', cursive;
 }
 </style>
 
